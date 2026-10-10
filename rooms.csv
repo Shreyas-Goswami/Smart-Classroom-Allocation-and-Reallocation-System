@@ -1,0 +1,12 @@
+RoomID,Capacity,Projector,Location,Status
+A101,60,true,Block A - Floor 1,Available
+A102,45,false,Block A - Floor 1,Available
+B201,120,true,Block B - Floor 2,Available
+B202,30,true,Block B - Floor 2,Maintenance
+C301,80,false,Block C - Floor 3,Occupied
+# comment lines and blank lines are ignored
+
+A101,50,true,Duplicate row,Available
+D401,abc,true,Bad capacity row,Available
+D402,40,maybe,Bad projector row,Available
+LAB1,25,true,Science Block - Ground,Available
